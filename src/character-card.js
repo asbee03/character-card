@@ -21,7 +21,7 @@ export class CharacterCard extends LitElement {
         type: String,
       },
 
-      subtitle: {
+      nickname: {
         type: String, 
       },
 

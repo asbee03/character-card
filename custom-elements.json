@@ -4,52 +4,126 @@
   "modules": [
     {
       "kind": "javascript-module",
-      "path": "src/scaffold-app.js",
+      "path": "src/character-card.js",
       "declarations": [
         {
           "kind": "class",
           "description": "",
-          "name": "ScaffoldApp",
+          "name": "CharacterCard",
           "members": [
             {
               "kind": "field",
-              "name": "header",
+              "name": "characterName",
               "type": {
                 "text": "string"
               },
-              "default": "'My app'",
+              "default": "\"BALJEET\""
+            },
+            {
+              "kind": "field",
+              "name": "characterDetails",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"Baljeet is what every brown person aspires to be!\""
+            },
+            {
+              "kind": "field",
+              "name": "img",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"https://i.redd.it/zckxgrywjpk61.jpg\"",
               "privacy": "public",
-              "attribute": "header"
+              "attribute": "img"
+            },
+            {
+              "kind": "field",
+              "name": "Name",
+              "privacy": "public",
+              "attribute": "Name"
+            },
+            {
+              "kind": "field",
+              "name": "Details",
+              "privacy": "public",
+              "attribute": "Details"
+            },
+            {
+              "kind": "field",
+              "name": "topText",
+              "privacy": "public",
+              "attribute": "topText"
+            },
+            {
+              "kind": "field",
+              "name": "bottomText",
+              "privacy": "public",
+              "attribute": "bottomText"
+            },
+            {
+              "kind": "field",
+              "name": "nickname",
+              "privacy": "public",
+              "attribute": "nickname"
             }
           ],
           "attributes": [
             {
-              "name": "header",
-              "fieldName": "header"
+              "name": "Name",
+              "fieldName": "Name"
+            },
+            {
+              "name": "Details",
+              "fieldName": "Details"
+            },
+            {
+              "name": "topText",
+              "fieldName": "topText"
+            },
+            {
+              "name": "bottomText",
+              "fieldName": "bottomText"
+            },
+            {
+              "name": "nickname",
+              "fieldName": "nickname"
+            },
+            {
+              "name": "img",
+              "fieldName": "img"
             }
           ],
           "superclass": {
             "name": "LitElement",
             "package": "lit"
           },
-          "tagName": "scaffold-app",
+          "tagName": "character-card",
           "customElement": true
         }
       ],
       "exports": [
         {
-          "kind": "custom-element-definition",
-          "name": "scaffold-app",
+          "kind": "js",
+          "name": "CharacterCard",
           "declaration": {
-            "name": "ScaffoldApp",
-            "module": "src/scaffold-app.js"
+            "name": "CharacterCard",
+            "module": "src/character-card.js"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "character-card",
+          "declaration": {
+            "name": "CharacterCard",
+            "module": "src/character-card.js"
           }
         }
       ]
     },
     {
       "kind": "javascript-module",
-      "path": "stories/scaffold-app.stories.js",
+      "path": "stories/character-card2.stories.js",
       "declarations": [
         {
           "kind": "variable",
@@ -61,7 +135,7 @@
           "kind": "js",
           "name": "default",
           "declaration": {
-            "module": "stories/scaffold-app.stories.js"
+            "module": "stories/character-card2.stories.js"
           }
         },
         {
@@ -69,7 +143,7 @@
           "name": "App",
           "declaration": {
             "name": "App",
-            "module": "stories/scaffold-app.stories.js"
+            "module": "stories/character-card2.stories.js"
           }
         }
       ]
