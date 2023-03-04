@@ -37,7 +37,6 @@ export class CharacterCard extends LitElement {
       body {
   background: blue; 
 }
-
 .all{
   
   text-align: center;
@@ -73,8 +72,6 @@ buttons:focus{
   width: 400px;
   align-items: center;
 }
-
-
 @media (min-width: 500px) and (max-width: 800px) {
     
     .detailButton {
@@ -111,8 +108,6 @@ buttons:focus{
     ${this.characterDetails}
   </p>
 </details>
-
-
   <slot name = "img"></slot>
 </div>
     `;

@@ -1,9 +1,9 @@
 import { html } from 'lit';
-import '../src/character-card2.js';
+import '../src/character-card.js';
 
 export default {
-  title: 'CharacterCard2',
-  component: 'character-card2',
+  title: 'CharacterCard',
+  component: 'character-card',
   argTypes: {
     backgroundColor: { control: 'color' },
   },
@@ -12,7 +12,7 @@ export default {
 function Template({ title, backgroundColor }) {
   return html`
     <character-card2
-      style="--character-card2-background-color: ${backgroundColor || 'white'}"
+      style="--character-card-background-color: ${backgroundColor || 'white'}"
       .title=${title}
     >
     </character-card2>

@@ -1,8 +1,8 @@
 {
-  "name": "character-card2",
+  "name": "character-card",
   "description": "Webcomponent character-card2 following open-wc recommendations",
   "license": "MIT",
-  "author": "character-card2",
+  "author": "character-card",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
